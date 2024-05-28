@@ -65,7 +65,7 @@ def parse(sexpr: str) -> Any:
 
 
 if __name__ == '__main__':
-    with open('/home/guenther/law/projects/labstack/pcb/pcb/labstack.kicad_pcb') as f:
+    with open('sample.kicad_pcb') as f:
         sexpr = f.read()
 
     obj = parse(sexpr)
